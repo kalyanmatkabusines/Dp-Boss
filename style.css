@@ -240,3 +240,18 @@ footer strong {
     font-size: 13px;
   }
 }
+.profile {
+  width: 135px !important;
+  height: 135px !important;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  margin: 0 auto 10px !important;
+  border: 3px solid #ffda76;
+  border-radius: 22px;
+  box-shadow: 0 0 22px #ffc64c99;
+}
+
+header {
+  padding: 14px 10px 16px !important;
+}
