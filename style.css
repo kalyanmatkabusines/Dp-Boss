@@ -110,3 +110,47 @@ footer {
   text-align: center;
   color: #d9c5a1;
 }
+/* Compact header for mobile */
+header {
+  padding: 12px 10px 16px !important;
+  min-height: auto;
+}
+
+/* Smaller profile logo */
+.profile {
+  width: 88px !important;
+  height: 88px !important;
+  margin: 0 auto 8px !important;
+  border-radius: 18px;
+}
+
+/* Remove extra space above and below title */
+header h1 {
+  margin: 5px 0 0 !important;
+  font-size: clamp(23px, 6vw, 32px) !important;
+  line-height: 1.2;
+}
+
+header p {
+  margin: 7px 0 0 !important;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* Compact space before game section */
+.container {
+  padding-top: 10px !important;
+}
+
+.section-title {
+  margin: 10px 0 14px !important;
+  padding: 8px 5px !important;
+  line-height: 1.2;
+}
+
+/* Keep download button neat */
+.top-download {
+  margin: 0 auto 16px !important;
+  padding: 13px 8px !important;
+  font-size: 19px !important;
+}
