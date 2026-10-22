@@ -87,3 +87,26 @@ body {
   border-radius: 50px;
   box-shadow: 0 5px 0 #5c2609;
 }
+header {
+  padding: 25px 12px;
+  text-align: center;
+  background: linear-gradient(135deg, #3a070b, #b60d35, #4b080d);
+  border-bottom: 3px solid #ffd777;
+}
+
+header h1 {
+  color: #ffe8a0;
+  font-size: clamp(25px, 7vw, 38px);
+  text-shadow: 2px 3px 0 #68100b, 0 0 15px #ffba39;
+}
+
+header p {
+  margin-top: 9px;
+  color: #fff0c5;
+}
+
+footer {
+  padding: 22px 12px;
+  text-align: center;
+  color: #d9c5a1;
+}
