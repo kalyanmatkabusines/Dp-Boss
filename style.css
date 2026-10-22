@@ -49,9 +49,11 @@ body {
   height: 116px;
   margin: 0 auto 15px;
   object-fit: cover;
+  object-position: center;
   border-radius: 22px;
   border: 4px solid #ffda76;
   box-shadow: 0 0 25px #ffc64c99;
+}
 }
 
 .container {
